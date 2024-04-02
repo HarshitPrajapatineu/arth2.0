@@ -1,0 +1,54 @@
+{
+    "design": [
+        {
+            "id": "heading",
+            "type": "heading",
+            "data": {
+                "name": "login",
+                "label": "Log in",
+                "component": "h1",
+                "variant": "h5"
+            }
+        },
+        {
+            "id": "alert",
+            "type": "alert",
+            "data": {
+                "severity": "error",
+                "display": "none",
+                "label": "Invalid Data"
+            }
+        },
+        {
+            "id": "email",
+            "type": "textfield",
+            "data": {
+                "name": "email",
+                "label": "Email",
+                "placeholder": "Enter Email",
+                "disabled": false,
+                "required": true
+            }
+        },
+        {
+            "id": "password",
+            "type": "password",
+            "data": {
+                "name": "password",
+                "label": "Password",
+                "placeholder": "Enter Password",
+                "required": true
+            }
+        },
+        {
+            "id": "submit",
+            "type": "button",
+            "data": {
+                "type": "submit",
+                "action": "submit",
+                "label": "Submit",
+                "disabled": false
+            }
+        }
+    ]
+}
