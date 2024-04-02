@@ -1,4 +1,4 @@
-# A R T H
+# A R T H 2.0
 ## The Dynamic Rendering App 
 This is te application to demonstrate dynamic rendering of client in react by fetching design from node server.
 
